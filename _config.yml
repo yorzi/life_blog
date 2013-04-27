@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://tech.wangyaodi.com
+url: http://blog.wangyaodi.com
 title: @yorzi
-subtitle: great people share knowledge
+subtitle: great people share happiness
 author: Andy Wang
 simple_search: http://google.com/search
 
@@ -71,4 +71,4 @@ delicious_count: 3
 disqus_short_name: andywangshome
 
 # Google Analytics
-google_analytics_tracking_id: UA-17239385-1
+google_analytics_tracking_id: 
