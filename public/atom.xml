@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>@yorzi</title>
+  <link href="http://blog.wangyaodi.com/atom.xml" rel="self"/>
+  <link href="http://blog.wangyaodi.com/"/>
+  <updated>2013-04-27T23:00:56+08:00</updated>
+  <id>http://blog.wangyaodi.com/</id>
+  <author>
+    <name>Andy Wang</name>
+    
+      <email>wangyaodi@gmail.com</email>
+    
+  </author>
+
+  
+</feed>
