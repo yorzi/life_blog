@@ -4,7 +4,7 @@
 
 url: http://blog.wangyaodi.com
 title: @yorzi
-subtitle: great people share happiness
+subtitle: #great people share happiness
 author: Andy Wang
 simple_search: http://google.com/search
 
@@ -35,7 +35,7 @@ recent_posts: 8 # Posts in the sidebar Recent Posts section
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [custom/asides/about.html, custom/asides/weibo.html, asides/recent_posts.html, asides/twitter.html, asides/delicious.html]
+default_asides: [custom/asides/about.html, custom/asides/weibo.html, asides/recent_posts.html, asides/twitter.htm]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -71,8 +71,8 @@ pinboard_user:
 pinboard_count: 3
 
 # Delicious
-delicious_user: yorzi
-delicious_count: 3
+# delicious_user: yorzi
+# delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: andyspersonalblog

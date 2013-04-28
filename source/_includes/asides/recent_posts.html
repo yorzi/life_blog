@@ -1,5 +1,5 @@
 <section>
-  <h1>Recent Posts</h1>
+  <h1>近期博文</h1>
   <ul id="recent_posts">
     {% for post in site.posts limit: site.recent_posts %}
       <li class="post">
@@ -7,5 +7,5 @@
       </li>
     {% endfor %}
   </ul>
-  <p>>>>>>>>>  <a style="color:red" href="{{ root_url }}/blog/archives">More Posts in Archives</a></p>
+  <p><a style="color:red" href="{{ root_url }}/blog/archives">更多...</a></p>
 </section>
