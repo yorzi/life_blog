@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "http://ruby.taobao.org"
 
 gem 'rake'
 gem 'rack'
@@ -9,4 +9,6 @@ gem 'RedCloth'
 gem 'haml', '>= 3.1'
 gem 'compass', '>= 0.11'
 gem 'rubypants'
+gem 'psych'
+gem 'hpricot'
 # gem 'rb-fsevent'
