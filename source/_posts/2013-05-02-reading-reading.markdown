@@ -11,6 +11,8 @@ categories:
 - Kindle
 ---
 
+![reading][reading-image]
+
 每年到了三四月份，就会良心发现，发现自己又浪费了很多时间在各种扯淡的事情上面，而忽略了很重要的一件事情，那就是`读书`。读书渐渐变成我划分冬天和春天的标志性事件。这一年的春天，仍然是从读书开始.
 
 普通人读书太依赖契机，我的境界决定了我看书的动力也全来自各种契机。
@@ -31,3 +33,4 @@ categories:
 [The Wall Street Journal Guide to Information Graphics]: http://book.douban.com/subject/4776049/
 [大秦帝国]: http://book.douban.com/subject/3079029/
 [小段]: http://weibo.com/duanxuchao
+[reading-image]: https://www.evernote.com/shard/s8/sh/01a40574-376b-4592-8426-7bccf6bbfd68/3fd5cbd040e5f604cf1f82d856729b52/res/bdb6cf5c-2961-4c53-ac9a-27bfa563704b/baby_w-glasses-20130503-083841.jpg.jpg?resizeSmall&width=832
