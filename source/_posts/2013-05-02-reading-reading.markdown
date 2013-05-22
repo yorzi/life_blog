@@ -33,4 +33,4 @@ categories:
 [The Wall Street Journal Guide to Information Graphics]: http://book.douban.com/subject/4776049/
 [大秦帝国]: http://book.douban.com/subject/3079029/
 [小段]: http://weibo.com/duanxuchao
-[reading-image]: https://www.evernote.com/shard/s8/sh/01a40574-376b-4592-8426-7bccf6bbfd68/3fd5cbd040e5f604cf1f82d856729b52/res/bdb6cf5c-2961-4c53-ac9a-27bfa563704b/baby_w-glasses-20130503-083841.jpg.jpg?resizeSmall&width=832
+[reading-image]: http://farm8.staticflickr.com/7283/8779046570_ddee38297e_o.jpg
