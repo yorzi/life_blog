@@ -4,7 +4,7 @@
   <title>@yorzi</title>
   <link href="http://blog.wangyaodi.com/atom.xml" rel="self"/>
   <link href="http://blog.wangyaodi.com/"/>
-  <updated>2013-06-08T14:30:11+08:00</updated>
+  <updated>2013-06-11T20:31:21+08:00</updated>
   <id>http://blog.wangyaodi.com/</id>
   <author>
     <name>Andy Wang</name>
@@ -15,11 +15,78 @@
 
   
   <entry>
+    <title>Mac上面最常用的十二个工具</title>
+    <link href="http://blog.wangyaodi.com/2013/06/11/my-top-tools-on-mac/"/>
+    <updated>2013-06-11T20:27:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/06/11/my-top-tools-on-mac</id>
+    <content type="html">&lt;p&gt;上篇写&lt;code&gt;工具&lt;/code&gt;，这篇就顺便给大家分享一下我平时生活中最常用的&lt;code&gt;十二个工具&lt;/code&gt;，其实今天说的工具都是指&lt;code&gt;软件&lt;/code&gt;，以后有机会还可以分享更多其它&lt;code&gt;工具&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://farm3.staticflickr.com/2869/8997098392_1edda4e459_o.png&quot; alt=&quot;my-tools&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如上图所示，我最目前最常用的软件就是他们，具体介绍如下：&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h5&gt;一 Mou&lt;/h5&gt;
+
+&lt;p&gt;如果不是&lt;a href=&quot;http://mouapp.com/&quot;&gt;Mou&lt;/a&gt;的出现，我或许一直觉得写东西其实挺麻烦，来回开不同的编辑器或者点击不同的按钮排版，到最后还得保存到特定的地方，总之Mou扫清了所有障碍，让人更喜欢写东西，我现在所有Blog和文档都是在Mou中完成的。&lt;/p&gt;
+
+&lt;h5&gt;二 Evernote&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.evernote.com/&quot;&gt;Evernote&lt;/a&gt;中文版据说叫&lt;code&gt;印象笔记&lt;/code&gt;，这大概是我最早喜欢用的Mac上面的软件，简单分类，自动同步，最重要的是，Copy各种网页或者聊天记录格式会完美保留，这款软件基本扮演了&lt;code&gt;秘书&lt;/code&gt;的作用，所有琐碎而重要的事情，我都依赖它来记录和保存。重要的是，免费的流量完全够用。&lt;/p&gt;
+
+&lt;h5&gt;三 Chrome&lt;/h5&gt;
+
+&lt;p&gt;这个真没什么好说的，浏览器世界中，除了&lt;a href=&quot;http://toastytech.com/evil/&quot;&gt;IE&lt;/a&gt;傻磋二之外，其它的浏览器都还好，差评不是太多，我个人习惯用&lt;a href=&quot;https://www.google.com/intl/en/chrome/browser/&quot;&gt;Chrome&lt;/a&gt;是因为一直喜欢Google，Google是我心目中最牛逼的公司，各种强大，各种领先。Chrome对于Developer来说，也有各种便利，不可或缺。&lt;/p&gt;
+
+&lt;h5&gt;四 Skype&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.skype.com/en/&quot;&gt;Skype&lt;/a&gt;常用，尽管被&lt;a href=&quot;http://tieba.baidu.com/p/1301785101&quot;&gt;没有品味的微软&lt;/a&gt;收购，却仍然高端，仍然保持这最早的好用，是各种远程会议或者群聊必备的工具。Skype也可以重钱当IP电话用，不过这个时代谁还掏钱打越洋电话？&lt;/p&gt;
+
+&lt;h5&gt;五 Sublime Text2&lt;/h5&gt;
+
+&lt;p&gt;做为Mac上面的开发者，我因为&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;ST&lt;/a&gt;放弃了用了两年多的大名鼎鼎的&lt;a href=&quot;http://macromates.com/&quot;&gt;Textmate&lt;/a&gt;，ST上手很快，而且可以分屏显示，更不用说无数好用的plugin把一个编辑器搞得高潮迭起，不错不错。&lt;/p&gt;
+
+&lt;h5&gt;六 Preview&lt;/h5&gt;
+
+&lt;p&gt;Mac上面的&lt;a href=&quot;http://en.wikipedia.org/wiki/Preview_(Mac_OS)&quot;&gt;Preview&lt;/a&gt;简直无比强大，貌似各种复杂文件她都能&lt;code&gt;预览之&lt;/code&gt;，预览图片时候可以快速分享到SNS，阅读PDF时候可以做笔记，评价就一个字：实用。&lt;/p&gt;
+
+&lt;h5&gt;七 Paper2&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://support.mekentosj.com/&quot;&gt;Paper&lt;/a&gt;这个软件是当年&lt;a href=&quot;http://weibo.com/presently&quot;&gt;@yedingding&lt;/a&gt;同学所推荐，管理PDF书籍之神器，同时也方便查找各种数据文献(这个功能我很少用)。Paper之所以经常用，是因为我有很多PDF，Paper帮助我把PDF很好分类。&lt;/p&gt;
+
+&lt;h5&gt;八 Dropbox&lt;/h5&gt;
+
+&lt;p&gt;云存储的鼻祖，太好用了，我本人所有重要的文档都备份在&lt;a href=&quot;http://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;。目前的免费空间对我来说足够用了，dropbox的功能很强大，比很多山寨的×box领先几个数量级，有阵子被&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E&quot;&gt;GFW&lt;/a&gt;给搞了，不过现在不用代理也一直稳定能用。&lt;/p&gt;
+
+&lt;h5&gt;九 GoAgentX&lt;/h5&gt;
+
+&lt;p&gt;在介绍这个软件之前，我先介绍一下&lt;a href=&quot;http://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E&quot;&gt;GFW&lt;/a&gt;，GFW就是我的祖国强奸网络的做案工具，这个工具的主要拜&lt;a href=&quot;http://weibo.com/fangbxbuptupt&quot;&gt;这个败类&lt;/a&gt;所赐。看丫都不敢开weibo评论，开了不被骂死才怪。&lt;a href=&quot;https://github.com/ohdarling/GoAgentX&quot;&gt;GoAgentX&lt;/a&gt;很方便管理各种翻墙方式，最近半年才开始用，一旦开始，发现就放不下了。&lt;/p&gt;
+
+&lt;h5&gt;十 Picasa&lt;/h5&gt;
+
+&lt;p&gt;可以说，&lt;a href=&quot;http://picasa.google.com/&quot;&gt;Picasa&lt;/a&gt;把图片和视频伺候的妥妥贴贴的，总觉的Mac自带的iPhoto各种别扭，Picasa很好的补充了Mac上面iPhoto的不足，Picasa同时也方便把照片传到Google的云端，分享和备份都非常方便。面对海量照片的不二选择。&lt;/p&gt;
+
+&lt;h5&gt;十一 Timeout&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.dejal.com/timeout/&quot;&gt;Timeout&lt;/a&gt;兢兢业业的打断我的工作提醒我该休息了，还会锁了我的屏幕，某种程度说它简直就是一个令人“讨厌“的Breaker，不过平良心讲，它更是一个好帮手。伏案工作，经常忘了休息，要记得Timeout才是。&lt;/p&gt;
+
+&lt;h5&gt;十二 Skitch&lt;/h5&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://evernote.com/skitch/&quot;&gt;Skitch&lt;/a&gt;和Evernote变成一家之后，功能稍微有所减弱，同步也不如之前好用，但是快速的图片注解功能还是让人无法放弃。虽然更喜欢之前快捷的分享方式，但是基本上还是离不开。&lt;/p&gt;
+
+&lt;h4&gt;&lt;strong&gt;&lt;em&gt;End Of Post&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;工具是这个时代最重要的资源，对每个人的机会都是一样的，使用合适的工具，提高效率，体验快乐，另一方面我也一直相信，手执利器，才能为所欲为。&lt;/p&gt;
+
+&lt;p&gt;欢迎大家留言说说自己最常用的软件 :)&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>爱工具</title>
     <link href="http://blog.wangyaodi.com/2013/06/08/love-tools/"/>
     <updated>2013-06-08T14:27:00+08:00</updated>
     <id>http://blog.wangyaodi.com/2013/06/08/love-tools</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5334/8984595770_d0452f6dea_o.png&quot; alt=&quot;tools&quot; /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8132/8997065726_9e67181d86_o.png&quot; alt=&quot;tools&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;孔老二曾言，&lt;code&gt;工欲善其事，必先利其器。&lt;/code&gt;这个孔老二我非常之不喜欢，但是却对他说的这一句话深以为然。&lt;/p&gt;
 
@@ -88,7 +155,8 @@
     <link href="http://blog.wangyaodi.com/2013/05/02/reading-reading/"/>
     <updated>2013-05-02T22:59:00+08:00</updated>
     <id>http://blog.wangyaodi.com/2013/05/02/reading-reading</id>
-    <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7283/8779046570_ddee38297e_o.jpg&quot; alt=&quot;reading&quot; /&gt;&lt;/p&gt;
+    <content type="html">&lt;div style=&quot;float: left; margin-right: 20px;&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7283/8779046570_ddee38297e_o.jpg&quot; /&gt;&lt;/div&gt;
+
 
 &lt;p&gt;每年到了三四月份，就会良心发现，发现自己又浪费了很多时间在各种扯淡的事情上面，而忽略了很重要的一件事情，那就是&lt;code&gt;读书&lt;/code&gt;。读书渐渐变成我划分冬天和春天的标志性事件。这一年的春天，仍然是从读书开始.&lt;/p&gt;
 
@@ -594,143 +662,6 @@ Sherry | Andy | Seven | 7嫂
 
 
 &lt;p&gt;接下来我们还正在计划游泳，骑车，以及奥体公园的长跑。春天很短，你还在迟疑什么？&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>我们这一天</title>
-    <link href="http://blog.wangyaodi.com/2011/03/08/%E6%88%91%E4%BB%AC%E8%BF%99%E4%B8%80%E5%A4%A9/"/>
-    <updated>2011-03-08T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/03/08/我们这一天</id>
-    <content type="html">&lt;p&gt;今天是感冒复出后的第一个工作日，虽然辞去了工作，但还是不能闲着，可谓蓝天白云大好时光，工作学习锻炼身体，一个都不能少。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;回放下这一天，显然还有待进一步调整和改善，生活之目标，没有最好，只有更好。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;7:00am&lt;br /&gt;
-Sherry起床，洗漱后出去晨练。后来8点左右回家，她自己已经吃了早饭，给我带了豆腐脑和茶叶蛋。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;7:30am&lt;br /&gt;
-我起床洗漱。然后开始看《苏东坡传》，直到sherry回家。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;8:30am&lt;br /&gt;
-我开始吃早饭。我们一起看电视到9:00am。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;9:00am&lt;br /&gt;
-我开始工作和学习，了解新的系统及其相关平台，再看看Ruby和Rails相关的文档。&lt;br /&gt;
-Sherry开始看《Rework》。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;11:00am&lt;br /&gt;
-我们一起做了一遍第八套广播体操。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;11:30am&lt;br /&gt;
-我开始在网上闲逛，并且熟悉新的工作内容。&lt;br /&gt;
-Sherry开始做汤面片。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;12:15pm&lt;br /&gt;
-我们开始吃饭，闲聊并且看电视。开始离开电脑一小会。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;1:10pm&lt;br /&gt;
-吃完饭，收拾完东西，一起出门遛弯，绕着小区转转，天气很好，我们脱掉了棉衣。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;2:00pm&lt;br /&gt;
-回到家里，各自回到电脑起面工作学习。&lt;br /&gt;
-Sherry开始看看英语，并且开始在网上闲逛，买买团购或者看看淘宝的活动。&lt;br /&gt;
-我这边需要回复一些mail，并且和不同的朋友聊聊不同的话题，工作的，私人的。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;3:00pm&lt;br /&gt;
-Sherry开始洗衣服。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;5:00pm&lt;br /&gt;
-Sherry洗完衣服，帮我泡冰糖雪梨。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;6:00pm&lt;br /&gt;
-我开始休息，说服Sherry利用《老友记》来学习英语，我们一起看了两集老友记。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;7:00pm&lt;br /&gt;
-Echo回家，我们收拾准备吃饭了。晚上要吃轻淡一些，主食是粥:)&lt;br /&gt;
-同时一起看电视。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;8:30pm&lt;br /&gt;
-各自回到电脑前。&lt;br /&gt;
-我开始研究一个JS小程序，Blade帮忙之下，学到一点JS方面的技巧。&lt;br /&gt;
-Sherry开始上网看google reader的订阅。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;10:00pm&lt;br /&gt;
-Sherry开始写blog，并且在网上晃荡。&lt;br /&gt;
-我开始回邮件，和不同的人交流不同的问题。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;11:00pm&lt;br /&gt;
-我洗澡，开始准备收工。&lt;br /&gt;
-Sherry写完blog准备收工洗漱睡觉。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;12:00pm&lt;br /&gt;
-我写了这篇BLOG，但是还有一篇技术Blog没来得急写。&lt;br /&gt;
-Sherry已经睡觉了。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;OK，大概就是这个样子，还需要调整到一个劳逸结合的状态，然后还需要坚持早点睡觉以及工作过程中小的Break。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;WOW，已经是三月八号了，祝女同志们节日快乐 :)&lt;/p&gt;
 
 </content>
   </entry>

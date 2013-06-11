@@ -11,7 +11,7 @@ categories:
 - Kindle
 ---
 
-![reading][reading-image]
+<div style="float: left; margin-right: 20px;"><img src="http://farm8.staticflickr.com/7283/8779046570_ddee38297e_o.jpg" /></div>
 
 每年到了三四月份，就会良心发现，发现自己又浪费了很多时间在各种扯淡的事情上面，而忽略了很重要的一件事情，那就是`读书`。读书渐渐变成我划分冬天和春天的标志性事件。这一年的春天，仍然是从读书开始.
 
