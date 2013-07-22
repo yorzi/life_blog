@@ -4,7 +4,7 @@
   <title>@yorzi</title>
   <link href="http://blog.wangyaodi.com/atom.xml" rel="self"/>
   <link href="http://blog.wangyaodi.com/"/>
-  <updated>2013-06-25T23:17:16+08:00</updated>
+  <updated>2013-07-21T22:15:03+08:00</updated>
   <id>http://blog.wangyaodi.com/</id>
   <author>
     <name>Andy Wang</name>
@@ -13,6 +13,198 @@
     
   </author>
 
+  
+  <entry>
+    <title>从容表达</title>
+    <link href="http://blog.wangyaodi.com/2013/07/21/be-open-to-express-yourself/"/>
+    <updated>2013-07-21T21:08:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/07/21/be-open-to-express-yourself</id>
+    <content type="html">&lt;h6&gt;抽时间写Blog或者做PPT都是绝佳的锻炼方式，另外再写写读书笔记，参加一些小型的演讲主动分享点知识和技能，按照这个套路，做程序员基本上就不容易闷骚了。&lt;/h6&gt;
+
+&lt;p&gt;上面一句话，是前阵子发过的一条&lt;a href=&quot;http://huati.weibo.com/k/%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E5%BF%83%E5%A3%B0&quot;&gt;微博&lt;/a&gt;，是自己有感而发，这几条建议，其实不光是对程序员，对大多数国内的年轻人都是很好的提升自我的方式。&lt;/p&gt;
+
+&lt;p&gt;最近做西安Rubyists的社区活动，免不了要做一些主题分享，免不了要出面讲很多话，免不了要写写记记做些统计做些总结。原本其实不喜欢当众讲话，不喜欢制作PPT，大概以前面子薄，在意的太多，总是怕自己讲不好，怕自己做的PPT不够精彩，怕自己当众出丑。所有这些“担忧”变成了不愿意做的强有力的借口。&lt;/p&gt;
+
+&lt;p&gt;直到有几次自己被逼到台前，当一个人必须要讲话，必须要表现得时候，才发现，其实并不是想象的那样困难，“丢脸”也并非那样难堪，大概做听众都能谅解可能出现的“丢脸”和“不完美”，所以问题就在于，自己能不能“原谅”自己可能出现的差池，能不能接纳自己的表现。&lt;/p&gt;
+
+&lt;p&gt;写Blog好多年了，文风(如果有的话)变了很多次，大概每次都是为了调整一下自己的状态，做一些不同的尝试，直到后来，写Blog变成一件轻松和及其有趣的事情，写一篇Blog，就是在进行一次精神的重塑，一场自己和自己对话，借此自己认同自己。&lt;/p&gt;
+
+&lt;p&gt;大学时候就流传一句话，会做PPT的人一定比会写程序的人赚钱多，开始只是觉得是个调侃，是个玩笑，直到后来需要自己用PPT做一场演讲的时候，才发现要做一个像样的PPT困难重重，自己的技能也捉衣见肘。原来，PPT并非想象那么容易，如果说Blog是用文字表达了自己，那PPT简直就是调动一切资源，整合一切方式来表达自己。&lt;/p&gt;
+
+&lt;p&gt;PPT反映的是一个人的思维方式，立体而全面，PPT往往是用来辅助演讲，PPT同时又是演讲的提纲和框架，由此可见好的PPT是多么有力的表达武器。08年时候第一次跨进外企，牛逼的老板有着令人目眩的背景和知识，几年下来，我从他们身上学到的最重要的东西，就是认识到&lt;code&gt;做好一个PPT的重要性和牛逼之处&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;写读书笔记这件事情鼓噪了很多年，上学时代可能就开始了，但是真正有所收获，还是最近才开始的。读书俱乐部加上读书笔记，让一群人一块从中获得知识和乐趣，这种快乐，远比一个人埋头苦读要多。读书笔记可以辅助圆桌讨论，很容易让那些腼腆内向的人，也开口讨论他们对于读书的独特的观点和感受。读书的好处因为读书笔记而放大。&lt;/p&gt;
+
+&lt;p&gt;最后说说演讲，演讲是需要锻炼的，一开始注定会有各种不适应，甚至挫败感，没关系，演讲的目的不是获得外部赞誉，不是向外界表现完美的自己，演讲在我看来，是突破自我，是自我接纳和自我认可，不管表现的完美与否，我们都能从演讲本获得自身的提升，这种提升对于一个人整体素质的提高有着不可估量的作用。&lt;/p&gt;
+
+&lt;p&gt;还犹豫吗？不要犹豫了，赶快动起来。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>远程工作那些事儿</title>
+    <link href="http://blog.wangyaodi.com/2013/07/20/remote-working/"/>
+    <updated>2013-07-20T15:20:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/07/20/remote-working</id>
+    <content type="html">&lt;h4&gt;远程团队的要素&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;公司靠谱，团队靠谱，员工靠谱。&lt;/li&gt;
+&lt;li&gt;公司和员工之间相互信任。&lt;/li&gt;
+&lt;li&gt;分享知识与技能。&lt;/li&gt;
+&lt;li&gt;团队内部有效沟通。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;工具 &lt;a href=&quot;https://speakerdeck.com/yorzi/yuan-cheng-gong-zuo-na-xie-shi-er&quot;&gt;PPT&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;工作流程&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Github 工作流。&lt;/li&gt;
+&lt;li&gt;每日“站立”会议。&lt;/li&gt;
+&lt;li&gt;每周“资源同步”和“进度确认”。&lt;/li&gt;
+&lt;li&gt;提交“请假表”。&lt;/li&gt;
+&lt;li&gt;标注(On/Off)状态。&lt;/li&gt;
+&lt;li&gt;提交Harvest Hours。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h4&gt;团队文化 &lt;a href=&quot;https://speakerdeck.com/yorzi/yuan-cheng-gong-zuo-na-xie-shi-er&quot;&gt;PPT&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4&gt;优势&lt;/h4&gt;
+
+&lt;h6&gt;对公司而言&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;节省成本，跟办公室相关的费用都能省掉。&lt;/li&gt;
+&lt;li&gt;更加高效的团队。&lt;/li&gt;
+&lt;li&gt;给员工创造更为宽松的环境。&lt;/li&gt;
+&lt;li&gt;能让公司雇佣到不愿意迁居的好员工。&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h6&gt;对个人而言&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;节省上下班路上的时间。&lt;/li&gt;
+&lt;li&gt;更灵活的个人时间安排。&lt;/li&gt;
+&lt;li&gt;更专注的工作，使工作效率更高。&lt;/li&gt;
+&lt;li&gt;可以更好的照顾家庭和孩子。&lt;/li&gt;
+&lt;li&gt;更易于在生活、工作和兴趣间找到平衡。&lt;/li&gt;
+&lt;li&gt;可以边旅游边工作。&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h4&gt;劣势&lt;/h4&gt;
+
+&lt;h6&gt;对公司而言&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;相对难管理。&lt;/li&gt;
+&lt;li&gt;存在更大的团队风险。&lt;/li&gt;
+&lt;li&gt;说服客户使其认可这种工作方式。&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h6&gt;对个人而言&lt;/h6&gt;
+
+&lt;ol&gt;
+&lt;li&gt;生活和工作会严重交织在一起。&lt;/li&gt;
+&lt;li&gt;社交活动会减少（在中国）。&lt;/li&gt;
+&lt;li&gt;需要自己缴纳社保和公积金。&lt;/li&gt;
+&lt;li&gt;别人会觉得你很闲，可能会频繁打断你。&lt;/li&gt;
+&lt;li&gt;容易过劳。&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;iframe src=&quot;http://www.slideshare.net/slideshow/embed_code/24404883&quot; width=&quot;427&quot; height=&quot;356&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&quot; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt;
+
+
+&lt;p&gt; &lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;http://www.slideshare.net/yorzi/ss-24404883&quot; title=&quot;远程工作那些事儿&quot; target=&quot;_blank&quot;&gt;远程工作那些事儿&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/yorzi&quot; target=&quot;_blank&quot;&gt;Andy Wang&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>西安Rubyists线下活动通知[20130720]</title>
+    <link href="http://blog.wangyaodi.com/2013/07/17/xian-rubyists-party-v2/"/>
+    <updated>2013-07-17T23:37:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/07/17/xian-rubyists-party-v2</id>
+    <content type="html">&lt;p&gt;西安Rubyists新一期聚会又要开始召集了，我们以后&lt;code&gt;每个月第三个周六下午&lt;/code&gt;都会举办一次线下活动，以促进西安Ruby圈子的发展和壮大。下面是本次活动的相关信息：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;时间&lt;/strong&gt;：2013年7月20日（周六），下午1：30PM到4：30PM &lt;br /&gt;
+&lt;strong&gt;地点&lt;/strong&gt;：ThoughtWorks西安办公室 (Trello中有地图)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;活动内容：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Session1 (30mins): 远程工作经验分享 (by &lt;a href=&quot;http://weibo.com/yorzi&quot;&gt;@yorzi&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Session2 (30mins): MongoDB那些事 (by &lt;a href=&quot;http://weibo.com/iamroody&quot;&gt;@iamroody&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;BookClub (45mins): 《黑客与画家》分章领读，集体讨论。&lt;/li&gt;
+&lt;li&gt;TeamTalk (30mins): 骑行的乐趣，扯车子和技术的淡。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;我们通过&lt;code&gt;Trello&lt;/code&gt;组织活动，以方面每个参与者都能都快速有效的发出自己的声音，表达自己的态度，请有兴趣参与西安Ruby圈子的童鞋把你的&lt;code&gt;邮箱&lt;/code&gt;发给我，我会邀请你们加入聚会的Board。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;联系方式&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;Mail：wangyaodi[at]gmail.com &lt;br/&gt;
+Weibo/Twitter: @yorzi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;感谢&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;感谢&lt;a href=&quot;http://ruby-china.org/&quot;&gt;RubyChina&lt;/a&gt;管理员上次置顶我们的活动。谢谢&lt;a href=&quot;http://www.thoughtworks.com/&quot;&gt;ThoughtWorks&lt;/a&gt;西安公司对活动的大力支持。也一并感谢积极参与社区活动的各位童鞋。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;最后&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;报名截止日期：周五(7月19日)晚，以&lt;a href=&quot;https://trello.com/b/JqfZQq2W/xi-an-rubyists-party&quot;&gt;Trello&lt;/a&gt;中的Vote人数为最后报名数，以方便我们对活动进行存档。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://l.ruby-china.org/photo/c55523b9e24a70cfa117c5b313b62e10.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>在路上</title>
+    <link href="http://blog.wangyaodi.com/2013/07/07/on-the-road/"/>
+    <updated>2013-07-07T21:57:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/07/07/on-the-road</id>
+    <content type="html">&lt;p&gt;最近有很多朋友都在米国，或者出差，或者旅游，或者参加技术Conf，心里小有波澜，希望自己也恰好在那里，不为别的，只希望和朋友们相聚在不同的地方，那样才显出生命的巧妙，才感受得到生活中那种&lt;code&gt;相逢在他处&lt;/code&gt;的乐趣。&lt;/p&gt;
+
+&lt;p&gt;他们在自己的路上前行，我又何尝不是，只不过，他们尽力扩展自己的道路，而我坚守自己生活的宽度，网络不让大家渐行渐远，我便远远的关注，每个人都收获着不同的东西，而这些东西，也一定是我们当下最在乎的东西。&lt;/p&gt;
+
+&lt;p&gt;这一年有不少熟人慢慢从帝都归来，或者创业，或者买房还贷，或者相夫教子过着再普通不过的生活，我则与老婆孩子住在父母家里，这是另一条路，虽然居所未定，但是少了很多世俗的压力，&lt;code&gt;住在哪里不重要，重要的是心态和情怀&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;听闻一个同事去了groupon，想想之前去twitter和github的同事，再想想那些正在创业的朋友们，很庆幸自己认识这些牛逼闪闪的人，他们向上的力量非常励志，条条道路通罗马，这些人就是我身边的正能量，他们时时刻刻提醒着我，&lt;code&gt;必须坚持走下去，走一条成全自己心智的路&lt;/code&gt;。&lt;/p&gt;
+
+&lt;p&gt;几天前读到王兴关于&lt;a href=&quot;http://weibo.com/1642482194/zEyEv2ZiM&quot;&gt;在中国创业的一些感受和心得&lt;/a&gt;，真心佩服王兴这个人，他说&lt;code&gt;既往不恋，当下不杂，未来不迎&lt;/code&gt;，路就在那里，机会就在你身边，你需要把他变成你的路，把机会变成你的机会。他最后讲&lt;code&gt;纵情向前&lt;/code&gt;，我喜欢&lt;code&gt;纵情向前&lt;/code&gt;这种状态。&lt;/p&gt;
+
+&lt;p&gt;有朋友讲过，每隔三年左右，你前面就会出现新的台阶，你如果不愿意上去，那你就会厌烦当前的处境，就是这样。&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>读书俱乐部</title>
+    <link href="http://blog.wangyaodi.com/2013/07/05/bookclub/"/>
+    <updated>2013-07-05T17:18:00+08:00</updated>
+    <id>http://blog.wangyaodi.com/2013/07/05/bookclub</id>
+    <content type="html">&lt;p&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7412/9212562541_70e3bd387f_z.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;读书，对于当下大多数国人而言，可能是一件无趣的事情，看看周围的人，有几个人还在坚持读书？&lt;/p&gt;
+
+&lt;p&gt;人常言，书非借而不能读，那是说很久以前，书籍做为稀缺资源，在朋友同学之间流通，如果借一本书而不及时阅读，很快又要还给别人，便丢失了读到一本书的机会，这种情况下，会产生外力来推动阅读。然而，这种情况已经不复存在。今天是不是愿意读书，除了自己内心渴求和积极行动之外，似乎没有外界因素可以推动。&lt;/p&gt;
+
+&lt;p&gt;近两年尽管有读书计划，也常常因为各种原因而不能保质保量的完成目标，一直在尝试不同的方法来坚持阅读，效果总是不尽人意。直到公司内部开始搞Bookclub的活动，才慢慢开始喜欢上很多人一起读书，大家在一段时间读同一本书，然后找时间相互分享和讨论，这样读书，挖掘到很多乐趣。&lt;/p&gt;
+
+&lt;p&gt;于是大胆的在自己的一个小圈子也开展了一个BookClub，大家先相互推荐一堆好书，然后再投票选取其中一本，接着根据书的特点再组织大家分头行动，将来引领其它人讨论书的某个部分。有些朋友开始写读书笔记，这个过程中，每个人都在学习别人读书的方法，也都在准备自己要领读的那部分内容。读书变成集体活动，变成社交，大家不亦乐乎。&lt;/p&gt;
+
+&lt;p&gt;最近，我参与的两个Bookclub都在读&lt;a href=&quot;http://book.douban.com/subject/6021440/&quot;&gt;《黑客与画家》&lt;/a&gt;这本书，有时间就会读几页，然后在Evernote中做一些摘录，并且针对摘录分享一些自己的评论，这样积少成多逐渐行成一篇&lt;a href=&quot;https://www.evernote.com/shard/s8/sh/61ebe2e1-6f40-4525-b806-207ec0a1e088/2d6d41e01aae7b71087408710f2bc378&quot;&gt;读书笔记&lt;/a&gt;，不禁感慨，如此读书，确实收益多多。&lt;/p&gt;
+
+&lt;p&gt;读书俱乐部是一种很好的形式，适合熟人圈子一起分享和讨论书籍，每月搞一次线下活动又是很好的社交活动，高端显档次，比胡吃海塞k歌麻将要惬意几条街。&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>莫愁前路无知己</title>
@@ -447,190 +639,6 @@
 
 
 &lt;p&gt;Good Luck!&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>灰色星期三</title>
-    <link href="http://blog.wangyaodi.com/2011/09/14/%E7%81%B0%E8%89%B2%E6%98%9F%E6%9C%9F%E4%B8%89/"/>
-    <updated>2011-09-14T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/09/14/灰色星期三</id>
-    <content type="html">&lt;p&gt;今天是星期三，阴，剧阴无比。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;上午和美国同事讨论项目，非常纠结，于是领了几项毫不熟悉的任务开始钻研，隔壁家还在装修，电转一轮接一轮。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;中午接到Daniel的电话说是十月份的杭州之行要改期了，需要cancel我的机票，同时瞬间也cancel了几个相关的事情，着实无奈。然而，这个变化也给我十一回家提供了时间上的了可能，算是无奈中的一点收获。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;吃完午饭在回来的路上，一心想工作和活动的事情，却冷落了媳妇一路的各种问题，她便开始和我闹脾气，回到家里两人硬是为鸡毛蒜皮的小事“谈心良久”，眼看半下午就这样付诸东流。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;岳父昨天到北京，明天会去台北出差，原本约今晚吃饭，因为工作的原因，同时也因为组织RailsWed的活动的原因，我很为难，又想着他从台湾回来还会在北京待几天，所以决定不去和他吃饭了，虽然cancel了这件事情，但是心里一直有点耿耿于怀。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;到了晚上，正准备出门奔RailsWed而去，几乎就在同时，有好几个人告诉我不能参加RailsWed的活动了，掐指一算，包括我在内似乎只有两个人了，这如何对得起我辛苦制作的PPT，于是RailsWed也cancel了。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;今天星期三，劳累无比。&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>随想困境</title>
-    <link href="http://blog.wangyaodi.com/2011/09/06/%E9%9A%8F%E6%83%B3%E5%9B%B0%E5%A2%83/"/>
-    <updated>2011-09-06T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/09/06/随想困境</id>
-    <content type="html">&lt;p&gt;这个题目似乎有点歧义，其实很简单，就是随想和困境，以及随想本身的困境。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;最近一直试图总结一下这二年中的方方面面，或者生活体验，或者工作学习，或者情感和烦恼，总之，我想尝试随想一把，却不曾想，会遇见很多困境，这大致就是思考的恶果，但是另一方面，缓解了身体的疲劳，有效调节了单一切繁重的工作逻辑，从这个角度讲，这种困境也是一种享受。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;前阵子开始组织一些活动，于是频繁结交新的朋友，凭借眼缘和第一印象便愿意吐露心声，甚至约在一起吃饭运动，不亦乐乎，这种转变让我重新变得精力充沛，很奇妙吧，人际关系丰富而健康的时候，人会觉得快乐，这可能就是精力充沛激情饱满的源泉所在。前几年有一阵子，为人甚为谨慎多疑，不爱那些所谓的社交，而现在却很享受这种社交，在我看来，心态改变，使这一切成为可能。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;我是一个急性子的人，见不得人摩机，不管说话摩机还是办事摩机，都让我大为恼火，最近这一年把性子收住了，发现心急的人容易身体失调，进而各种疾病侵袭，慢性子慢节奏让你懂得欣赏，渐渐学会控制自己，通过很多办法让自己慢，所谓量体裁衣，大概就是说看你这个人缺什么，然后就要针对行的调和，才能切合自然，才能更加舒服。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;最近尝到看书写字的好处，提起笔，写几个字，随便抄写一段话，会有一些记忆随着笔尖的滑动而打开，你可以幻想自己坐在教室里，想到周围的同学，这种感觉及其美妙，重要的可能不是你回忆到了什么，而是你找到了那种味道。看书更是充满这种美好的味道，报一本书，坐在咖啡厅，那是一个温暖的午后，你尽情的打瞌睡，然后再挣扎着翻过去几页，再打瞌睡，呵呵，那就是青春年少的慵懒，太棒了。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;把工作做到极致，当你的工作真正开始以小时记薪酬的时候，你会不自觉的把每一分钟换算成美刀，那种感觉一开始还比较爽，越到后来越变成一种push，有时候让你觉得赤裸裸的世俗，每分钟都是钱，虽然不多，但是你开始用这种方式精确安排生活，天那，这种弦迟早要断，除非，除非你突然明白生活的意义，你第一次精确的用每一个小时来实践生活，你看着美刀而更愿意花时间去外面走走，花时间陪陪老婆逛街，这时候，你发生了巨大的变化，你开始知道每一个小时在你生活中的意义。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;一直在想，所谓学无止境，大概不是真的鼓励人呕心沥血去掌握很多知识和技能，生活强硬的把人变成为它的奴隶，很多人伴随这恐惧，朝朝暮暮，无时不刻肩负巨大的石头。学无止境大概是告诉人们，不学或许也是无止境的，而你学习知识和技能，远比不上让你的精神追求上一个境界，让你灵魂强大而包容。反思自己玩命的状态，有时候告诉自己该劝劝自己不要那么拼命，你真的知道你要什么吗？&lt;/p&gt;
-
-
-
-
-&lt;p&gt;思维活跃的好处是不再担心自己变成痴呆，还有很多随想和困惑，那应该就是我所定义的生活的意义：去理解生活。&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>换种节奏生活</title>
-    <link href="http://blog.wangyaodi.com/2011/09/05/%E6%8D%A2%E7%A7%8D%E8%8A%82%E5%A5%8F%E7%94%9F%E6%B4%BB/"/>
-    <updated>2011-09-05T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/09/05/换种节奏生活</id>
-    <content type="html">&lt;p&gt;大概两个周前的一天晚上，媳妇已经在身边睡着，而我却烦躁不堪，难以入睡，于是从床上坐起来，在呆坐的十分钟里面，我试图寻找一个问题的答案 ── &lt;strong&gt;为什么我会突然感觉到如此心慌和压抑？&lt;/strong&gt;&lt;/p&gt;
-
-
-
-
-&lt;p&gt;其实从2010年开始，工作和生活压力就像一个雪球，越滚越大，尽管有时候会忽略压力造成的麻烦，但是这一年多一味的迎接挑战，却忘记享受生活，各种麻烦和焦灼日复一日，最直接的影响就是对身体健康的影响，随之而来的是亚健康状态的变本加厉。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;三月份以来，新工作赋予我更多的自由支配的时间，锻炼渐渐成了生活的一部分，随之带来的是充沛的体力和强健的体魄。这一切都很好，但是为什么还会心慌呢？有时候无意看见以前写的Blog或者文字，回忆以前的一些生活片段，才会发现原来今天生活的是多么匆忙，对，就是匆忙。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;匆忙让我心慌，匆忙的节奏也让我无比压抑，每天打开电脑学习各种最新的技术，每天日夜coding和最优秀的同事讨论各种技术方案，每天在weibo上面跟踪各种资讯，这些看似没有正常的活动背后，却折射出一个可怕的问题：&lt;strong&gt;我的生活已经陷入一种速度的困境。&lt;/strong&gt;这种困境就&lt;strong&gt;如同当今中国的经济发展，看起来速度惊人，却显得没有文化。&lt;/strong&gt;&lt;/p&gt;
-
-
-
-
-&lt;p&gt;是的，就是这个原因，想想以前，每年会看三五十本书，每周会写三五篇文字，每天也都会留点时间和朋友扯淡闲聊。而如今，这一切都显得是那样的难以求得，说到底，还是因为&lt;strong&gt;对时间的认知太过功利，对生活的解读太过刻板&lt;/strong&gt;，没有这些活动填充的生活，其实就如同没有放盐放醋放各种调料的“美食”，兴许看得过去，但却一定食之无味。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;于是，从上周发现这个问题之后赶紧调整这该死生活心态，每天都花点时间看看书，这一周多以来，感受甚深，林语堂先生的&lt;吾国与吾民&gt;带给我很多思考的乐趣和精神的愉悦。每天坚持只在特定的时间看邮件和weibo，这让我有效的避免了自己潜意识被绑架的危险，现代科技已经开始把人引向一个境地，在那个境地里思考呈碎片状，头脑呈持续发热状，心智也如同长了翅膀，忽高忽底。&lt;/p&gt;
-
-&lt;p&gt;节奏其实是多维的，过去几个礼拜也尝试组织活动，这让我认识了一些新的朋友，新的朋友就意味着可能存在的新的改变，我喜欢迎接这种改变的感觉。&lt;/p&gt;
-
-&lt;p&gt;生活不能是一成不变的忙碌，生活需要慢一些，丰富一些，更有味道一些...&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>近况</title>
-    <link href="http://blog.wangyaodi.com/2011/08/27/%E6%96%B0%E8%BF%91-%E8%BF%91%E5%86%B5/"/>
-    <updated>2011-08-27T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/08/27/新近-近况</id>
-    <content type="html">&lt;p&gt;转眼三个月没有写Blog了。这期间更多的时间是在&lt;a href=&quot;http://weibo.com/yorzi&quot;&gt;微博&lt;/a&gt;上念念碎，也有时候要赶写一些&lt;a href=&quot;http://tech.wangyaodi.com&quot;&gt;技术类的文章&lt;/a&gt;，工作一如既往，充实而繁忙，不同的是，我逐渐找到了SOHO的节奏，有时候要快速的学习新的技术和知识，但很少再废寝忘食，有时间隔天跑步或者游泳，有时间陪&lt;a href=&quot;http://sherrytips.com&quot;&gt;媳妇&lt;/a&gt;看电影或者寻觅美食。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;六月七月的时候主要在西安，期间去乌鲁木齐呆了一个礼拜，断断续续地生活在不同的城市，对我而言，充满诱惑却也更添辛苦。在路上，一边行走一边工作，朋友们羡慕，家人满足，可以和不同的朋友相聚在不同的城市，可以多陪陪父母，这种感觉很好。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;停留在北京，现在更像是一种休闲。我一直认为，如果在北京拥有一处舒适的住处，而且不用耗费无尽的时间在上下班的路上感受拥堵，那这里的确是我想要留守的地方，然而房子的问题一直没法解决，这让我对这里很失望，蜗居于此十年，渐渐看得淡了，我可能会离开这里，去一个让我有归属感的地方。尽管时不时有冲动想离开北京，但是不能否认我对这里充满留恋，那些熟悉的朋友，各种Party，以及我熟悉的街道和体育馆，餐厅和酒吧..&lt;/p&gt;
-
-
-
-
-&lt;p&gt;天气终于转凉了，最近组织了一个&lt;a href=&quot;http://groups.google.com/group/railswed&quot;&gt;RailsWed&lt;/a&gt;的沙龙活动，每周都能见到一群做技术的朋友，大家聊各种技术话题，随之也收获各种开心。身体也随这这半年的调整变得更加健康，之前的一些亚健康的状态越来越少见，由此看来之前的工作确实消耗了我很多健康资本。现在每天吃吃喝喝，也愿意陪媳妇逛逛超市和商场。周末偶尔参加饭局，和一群人聊天说笑。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;十月要和&lt;a href=&quot;http://weibo.com/1956922624/follow&quot;&gt;一群朋友&lt;/a&gt;相聚在上海和杭州。随心而动，是的，生活大致如此。&lt;/p&gt;
-
-</content>
-  </entry>
-  
-  <entry>
-    <title>五月杂记</title>
-    <link href="http://blog.wangyaodi.com/2011/05/09/%E4%BA%94%E6%9C%88%E6%9D%82%E8%AE%B0/"/>
-    <updated>2011-05-09T00:00:00+08:00</updated>
-    <id>http://blog.wangyaodi.com/2011/05/09/五月杂记</id>
-    <content type="html">&lt;p&gt;&lt;strong&gt;青岛&lt;/strong&gt;
-继《&lt;a href=&quot;http://blog.wangyaodi.com/2011/04/24/%E7%83%9F%E5%8F%B05%E6%97%A5/&quot;&gt;烟台五日&lt;/a&gt;》之后本来还有一篇《青岛五日》，只怪后来持续繁忙，渐渐丢失了写作的灵感，但是青岛的那几日，让我难以忘怀。刘昊兄和他媳妇的热情好客，让我不想离开，还有他们自己做得海鲜，简直好吃的不得了，哪怕只是这么一提说，我已经开始咽口水。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;&lt;strong&gt;相声&lt;/strong&gt;
-表妹来京出差，没有来得及请她吃饭玩乐，却被她请去剧场坐在VIP的位置听曹云金的相声。平生第一次在现场听相声，享受。打小就很喜欢听相声，那时候欢乐的像个孩子，哈，那时候就是个孩子，现在听相声还是可以让人有那种久违的孩子般的快乐。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;&lt;strong&gt;iPad2&lt;/strong&gt;
-终于等来了iPad2，本来已经购买无望，着实因为媳妇强大而威武，最终在20公里外的一家苏宁将它斩获。2008年8月入iPhone1G，2010年6月入MBP，2011年5月入iPad2，三年来，苹果教会了我很多东西，谢谢乔帮主。&lt;/p&gt;
-
-
-
-
-&lt;p&gt;&lt;strong&gt;西安&lt;/strong&gt;
-是的，本周日回西安，在老家和爸妈住一个月 :)&lt;br /&gt;
-[caption id=&quot;attachment_10275&quot; align=&quot;aligncenter&quot; width=&quot;320&quot; caption=&quot;On The Road&quot;]&lt;a href=&quot;http://blog.wangyaodi.com/wp-content/uploads/2011/05/andy-old.jpg&quot;&gt;&lt;img src=&quot;http://blog.wangyaodi.com/wp-content/uploads/2011/05/andy-old.jpg&quot; alt=&quot;&quot; title=&quot;Andy&quot; width=&quot;320&quot; height=&quot;480&quot; class=&quot;size-full wp-image-10275&quot; /&gt;&lt;/a&gt;[/caption] &lt;/p&gt;
 
 </content>
   </entry>
