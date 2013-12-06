@@ -1,0 +1,881 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>@yorzi</title>
+  <meta name="author" content="Andy Wang">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <link rel="canonical" href="http://blog.wangyaodi.com/page17/index.html"/>
+  <link href="/favicon.png" rel="shortcut icon" />
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="http://s3.amazonaws.com/ender-js/jeesh.min.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <link href="/atom.xml" rel="alternate" title="@yorzi" type="application/atom+xml"/>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11967621-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+  
+
+  <!--Fonts from Google's Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body  >
+  <header><hgroup>
+  <h1><a href="/" style="color:red">@yorzi</a></h1>
+  
+  <a href="https://github.com/yorzi/life_blog"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/images/forkme.png" alt="Fork me on GitHub"></a>
+</hgroup>
+
+</header>
+  <nav role=navigation><ul role=subscription data-subscription="rss email">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="wangyaodi@gmail.com" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+<form action="http://google.com/search" method="get">
+  <fieldset role="site-search">
+    <input type="hidden" name="q" value="site:blog.wangyaodi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+<ul role=main-navigation>
+  <li><a href="http://tech.wangyaodi.com">技术闲谈</a></li>
+  <li><a href="http://about.me/wangyaodi">关于安迪</a></li>
+  <li><a href="/blog/archives">博客存档</a></li>
+  <li><a href="https://plus.google.com/108320517625960982177/about?hl=en" style="color:red">@yorzi</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/12/09/comparing-equality-eql-equal-and-case-equality-in-ruby/">Comparing Equality (==, Eql?, Equal?) and Case Equality (===) in Ruby</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-12-09 00:00:00 +0800" pubdate  updated >Dec 9<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In weekly code review, GL mentioned a weird issues :
+<code lang="ruby">
+def self.test(obj)<br />
+    case obj.class<br />
+    when Student, TrialPlan<br />
+      puts "1"<br />
+    when Call<br />
+      puts "2"<br />
+    else<br />
+      puts "3"<br />
+    end<br />
+end
+</code>
+This doesn&#8217;t behave as expected. When we run test(Student.first), it prints out &#8220;3&#8221;!</p>
+
+
+
+
+<p>but this works fine.
+<code lang="ruby">
+def self.test(obj)<br />
+    case obj.class.to_s<br />
+    when "Student", "TrialPlan"<br />
+      puts "1"<br />
+    when "Call"<br />
+      puts "2"<br />
+    else<br />
+      puts "3"<br />
+    end<br />
+end
+</code></p>
+
+
+
+
+<p>Then I searched around for explaining this, I found the <em>case statement</em> in Ruby is very different with what in other languages. Ruby implements the Case statement according to its special operator &#8220;===&#8221;, which is not the same as &#8220;==&#8221;.</p>
+
+
+
+
+<p>what&#8217;s difference? See below explainations:
+<a href="http://www.skorks.com/2009/08/how-a-ruby-case-statement-works-and-what-you-can-do-with-it/">how-a-ruby-case-statement-works-and-what-you-can-do-with-it/</a>
+<a href="http://blog.mustmodify.com/2008/11/ruby-case-statement-comparison-feature.html">ruby-case-statement-comparison-feature.html</a></p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/12/09/comparing-equality-eql-equal-and-case-equality-in-ruby/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/12/07/study-english/">英语学习</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-12-07 00:00:00 +0800" pubdate  updated >Dec 7<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>此文转自：<a href="http://user.qzone.qq.com/277814777/blog/1248573739" target="_blank">http://user.qzone.qq.com/277814777/blog/1248573739</a></p>
+
+
+
+
+<p><strong>1、日常用语类 </strong></p>
+
+
+
+
+<p>lover 情人（不是“爱人”）<br />
+busboy 餐馆勤杂工（不是“公汽售票员”）<br />
+busybody 爱管闲事的人（不是“大忙人”）<br />
+dry goods （美）纺织品；（英）谷物（不是“干货”）<br />
+heartman 换心人（不是“有心人”）<br />
+mad doctor 精神病科医生（不是“发疯的医生”）<br />
+eleventh hour 最后时刻（不是“十一点”）<br />
+blind date （由第三者安排的）男女初次会面（并非“盲目约会”或“瞎约会”）<br />
+dead president 美钞（上印有总统头像）（并非“死了的总统”）<br />
+personal remark 人身攻击（不是“个人评论”）<br />
+sweet water 淡水（不是“糖水”或“甜水”）<br />
+confidence man 骗子（不是“信得过的人”）<br />
+criminal lawyer 刑事律师（不是“犯罪的律师”）<br />
+service station 加油站（不是“服务站”）<br />
+rest room 厕所（不是“休息室”）<br />
+dressing room 化妆室（不是“试衣室”或“更衣室”）<br />
+sporting house 妓院（不是“体育室”）<br />
+horse sense 常识（不是“马的感觉”）<br />
+capital idea 好主意（不是“资本主义思想”）<br />
+familiar talk 庸俗的交谈（不是“熟悉的谈话”）<br />
+black tea 红茶（不是“黑茶”）<br />
+black art 妖术（不是“黑色艺术”）<br />
+black stranger 完全陌生的人（不是“陌生的黑人”）<br />
+white coal （作动力来源用的）水（不是“白煤”）<br />
+white man 忠实可靠的人（不是“皮肤白的人”）<br />
+yellow book 黄皮书（法国政府报告书，以黄纸为封）（不是“黄色书籍”）<br />
+red tape 官僚习气（不是“红色带子”）<br />
+green hand 新手（不是“绿手”）<br />
+blue stocking 女学者、女才子（不是“蓝色长统袜”）<br />
+China policy 对华政策（不是“中国政策”）<br />
+Chinese dragon 麒麟（不是“中国龙”）<br />
+American beauty 红蔷薇（不是“美国美女”）<br />
+English disease 软骨病（不是“英国病”）<br />
+Indian summer 愉快宁静的晚年（不是“印度的夏日”）<br />
+Greek gift 害人的礼品（不是“希腊礼物”）<br />
+Spanish athlete 吹牛的人（不是“西班牙运动员”）<br />
+French chalk 滑石粉（不是“法国粉笔”）</p>
+
+
+
+
+<p><strong>2.成语类 </strong></p>
+
+
+
+
+<p>pull one&#8217;s leg 开玩笑（不是“拉后腿”）<br />
+in one&#8217;s birthday suit 赤身裸体（不是“穿着生日礼服”）<br />
+eat one&#8217;s words 收回前言（不是“食言”）<br />
+an apple of love 西红柿（不是“爱情之果”）<br />
+handwriting on the wall 不祥之兆（不是“大字报”）<br />
+bring down the house 博得全场喝彩（不是“推倒房子”）<br />
+have a fit 勃然大怒（不是“试穿”）<br />
+make one&#8217;s hair stand on end 令人毛骨悚然—恐惧（不是“令人发指——气愤”）<br />
+be taken in 受骗，上当（不是“被接纳”）<br />
+think a great deal of oneself 高看或看重自己（不是“为自己想得很多”）<br />
+pull up one&#8217;s socks 鼓起勇气（不是“提上袜子”）<br />
+have the heart to do （用于否定句）忍心做……不是“有心做”或“有意做”）</p>
+
+
+
+
+<p><strong>3.表达方式类 </strong></p>
+
+
+
+
+<p>Look out! 当心！（不是“向外看”）<br />
+What a shame! 多可惜！真遗憾！（不是“多可耻”）<br />
+You don&#8217;t say! 是吗！（不是“你别说”）<br />
+You can say that again! 说得好！（不是“你可以再说一遍”）<br />
+I haven&#8217;t slept better. 我睡得好极了。（不是“我从未睡过好觉”）<br />
+You can&#8217;t be too careful in your work. 你工作越仔细越好。（不是“你工作不能太仔细”）<br />
+It has been 4 years since I smoked. 我戒烟４年了。（不是“我抽烟4年了”）<br />
+All his friends did not turn up. 他的朋友没全到。（不是“他的朋友全没到”）<br />
+People will be long forgetting her. 人们在很长时间内会记住她的。（不是“人们会永远忘记她”）<br />
+He was only too pleased to let them go. 他很乐意让他们走。（不是“他太高兴了，不愿让他们走”）<br />
+It can&#8217;t be less interesting. 它无聊极了。（不是“它不可能没有趣”）</p>
+
+
+
+
+<p>延伸阅读</p>
+
+
+
+
+<p><a href="http://www.unicornblog.cn/user1/unicornblog/200812513823.html" target="_blank"><strong>俞敏洪：100个句子记完的7000单词</strong></a></p>
+
+
+
+
+<p><a href="http://www.unicornblog.cn/user1/unicornblog/16442.html" target="_blank"><strong>英语面试精彩问答</strong></a></p>
+
+
+
+
+<p><a href="http://www.unicornbbs.cn/dispbbs.asp?BoardID=19&amp;ID=2342" target="_blank"><strong>英文简历用语大全</strong></a></p>
+
+
+
+
+<p><a href="http://www.unicornbbs.cn/dispbbs.asp?BoardID=19&amp;ID=26080" target="_blank"><strong>英文电子邮件高频句式</strong></a></p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/12/07/study-english/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/12/07/love-named_scope/">Love Named_scope</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-12-07 00:00:00 +0800" pubdate  updated >Dec 7<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Rails Best Practice Snippet: About named_scope.<br />
+Reference link to the PDF. <a rel="attachment wp-att-125" href="http://blog.wangyaodi.com/2009/11/26/law-of-demeter/rails-best-practices-2/">Rails-best-practices.</a></p>
+
+
+
+
+<p>named_scope is a Rails 2.x feature which can simplify your rails code, move your finders into their own Model, and compact the code logically and gracefully. Below code refactoring is a named_scope sample to show the tricky.</p>
+
+
+
+
+<p><strong>BEFORE</strong>
+<code lang="ruby">
+class PostController < ApplicationController<br />
+  def search<br />
+    conditions = { :title => "%#{params[:title]}%" } if params[:title]<br />
+    conditions.merge!{ :content => "%#{params[:content]}%" } if params[:content]<br />
+    case params[:order]<br />
+      when "title" : order = "title desc"<br />
+      when "created_at" : order = "created_at"<br />
+    end<br />
+    if params[:is_published]<br />
+      conditions.merge!{ :is_published => true }<br />
+    end<br />
+    @posts = Post.find(:all, :conditions => conditions, :order => order,<br />
+                             :limit => params[:limit])<br />
+  end<br />
+end
+</code></p>
+
+<p><strong>AFTER</strong>
+<code lang="ruby">
+class Post < ActiveRecord::Base<br />
+  named_scope :matching, lambda { |column, value|<br />
+    return {} if value.blank?<br />
+    { :conditions => ["#{column} like ?", "%#{value}%"] }<br />
+  }<br />
+  named_scope :order, lambda { |order|<br />
+  { :order => case order<br />
+      when "title" : "title desc"<br />
+      when "created_at" : "created_at"<br />
+    end }<br />
+  }<br />
+end
+</code>
+<code lang="ruby">
+class PostController < ApplicationController<br />
+  def search<br />
+    @posts = Post.matching(:title, params[:title])<br />
+                 .matching(:content, params[:content])<br />
+                 .order(params[:order])<br />
+  end<br />
+end
+</code></p>
+
+<p>More references :
+<a href="http://ryandaigle.com/articles/2008/3/24/what-s-new-in-edge-rails-has-finder-functionality">http://ryandaigle.com/articles/2008/3/24/what-s-new-in-edge-rails-has-finder-functionality</a>
+<a href="http://railscasts.com/episodes/108-named-scope">http://railscasts.com/episodes/108-named-scope</a></p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/12/07/love-named_scope/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/12/06/weekly-key-words/">Weekly Key Words</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-12-06 00:00:00 +0800" pubdate  updated >Dec 6<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>*<strong>11针</strong></p>
+
+
+
+
+<p>如果没有看见伤口，每个听说我眼睛附近缝了11针的朋友都会瞬间一懵，但是看见伤口的人又会开始觉得我是多么的幸运，因为即使情况那样子复杂，我的眼睛仍然安然无恙，所以每个人几乎都很开心，ss竟然带着香槟前来看望我。</p>
+
+
+
+
+<p>*<strong>8斤</strong></p>
+
+
+
+
+<p>当天晚上在医院等待的片刻，我站在秤上面，当时是72KG。（God，去年这个时候只有64KG）更离谱的是，昨天下午去拆线，我又站上去看了看，这一次是76KG。（God，首次突破150，我需要忏悔）</p>
+
+
+
+
+<p>*<strong>9天</strong>
+这一次又像是长假，在家里一直这么呆着，每天从这个屋子走到那个屋子，再从那个屋子走到这个屋子，再走过去，再走过来，再走过去，再走过来。其实闲的时候，也会好烦。</p>
+
+
+
+
+<p>这一个周要感谢很多人，那些过来做饭的，那些送好吃的，那些给我洗头的，那些陪我说话的，谢谢你们。（其实上次好像谢过一回了，这几天有人说我变的太客气了，其实那不是客气，那是我的福气）</p>
+
+
+
+
+<p>明天开始减肥，所以明天开始上班。</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/12/06/weekly-key-words/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/12/03/car-crashing/">Car Crash</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-12-03 00:00:00 +0800" pubdate  updated >Dec 3<span>rd</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>谢谢这么多人的关心，冰箱被大家带来的东西塞的满满的，恐怕得吃很久。<br />
+最重要的不是这么多吃的，而是你们的卡片，那些问候，那些短信，那些电话，还有来到家里陪我说话。</p>
+
+
+
+
+<p>人总是不能抗拒很多事情的发生，如果不得不面对，那么有大家一起便是我完整的满足。<br />
+今天去掉了压在眼睛上的纱布，虽然还有些困乏，但是我已经迫不及待想要把这些感动记在这里。</p>
+
+
+
+
+<p>谢谢所有的朋友们。</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/12/03/car-crashing/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/11/26/law-of-demeter/">Law of Demeter</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-11-26 00:00:00 +0800" pubdate  updated >Nov 26<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Rails Best Practice Snippet: Model refactor.<br />
+Reference link to the PDF.<a href="http://blog.wangyaodi.com/2009/11/26/law-of-demeter/rails-best-practices-2/" rel="attachment wp-att-125">Rails-best-practices.</a></p>
+
+
+
+
+<p>Before:
+<code lang="ruby">
+class Invoice < ActiveRecord::Base<br />
+  belongs_to :user<br />
+end
+<%= @invoice.user.name %>
+<%= @invoice.user.address %>
+<%= @invoice.user.cellphone %>
+</code>
+After:
+<code lang="rails">
+class Invoice < ActiveRecord::Base<br />
+  belongs_to :user<br />
+  delegate :name, :address, :cellphone, :to => :user, :prefix => true<br />
+end
+<%= @invoice.user_name %>
+<%= @invoice.user_address %>
+<%= @invoice.user_cellphone %>
+</code></p>
+
+<p>See more details about <a href="http://api.rubyonrails.org/classes/Module.html#M000110">Delegate</a> in rails doc.</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/11/26/law-of-demeter/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/11/26/ajax-support-in-rails/">Ajax Support in Rails</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-11-26 00:00:00 +0800" pubdate  updated >Nov 26<span>th</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong>Topics</strong>
+  Ajax/JavaScript libraries in Rails<br />
+  PrototypeHelper<br />
+  ScriptaculousHelper<br />
+  JavaScriptMacrosHelper<br />
+  JavaScript related utility methods<br />
+  Ruby JavaScript template</p>
+
+
+
+
+<p><strong>Ajax/JavaScript Libraries in Rails</strong>
+• Prototype - used mainly for Ajax<br />
+  > ActionView::Helpers::PrototypeHelper<br />
+• Scriptaculous - used mainly for visual effects, drag and drop, auto-completion<br />
+  > ActionView::Helpers::ScriptaculousHelper<br />
+• JavaScript related utility methods<br />
+  > ActionView::Helpers::JavaScriptHelper<br />
+• Others can be easily added</p>
+
+
+
+
+<p><strong>How to Include Ajax?JavaScript Libraries</strong>
+• Option 1: Use <%= javascript_include_tag :defaults %> in the HEAD section of your page (recommended):<br />
+   > Return references to the JavaScript files in your public/javascripts directory.<br />
+   > Recommended as the browser can then cache the libraries instead of fetching all the functions anew on every request.<br />
+• Option 2: Use <%= javascript_include_tag ‘prototype’ %>
+   > Will only include the Prototype core library<br />
+• Option 3: Use <%= define_javascript_functions %>
+   > Will copy all the JavaScript support functions within a single script block. Not recommended.</p>
+
+<p>SEE MORE DETAILS VIA <a href="http://blog.wangyaodi.com/2009/11/26/ajax-support-in-rails/rails_ajax/" rel="attachment wp-att-136">Download the PDF</a> stuff.</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/11/26/ajax-support-in-rails/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/11/23/%E4%B8%80%E5%91%A8%E5%B0%8F%E7%96%AF%E7%8B%82/">一周小疯狂</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-11-23 00:00:00 +0800" pubdate  updated >Nov 23<span>rd</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>1. “他大舅他二舅都是他舅，高桌子低板凳都是木头。”<br />
+    这句陕西方言火的时候，我似乎看到了陕西文化开始在娱乐界变得生意兴隆，从之前《高兴》里面黄勃的二愣子方式演译，再到张艺谋在《三枪拍案惊奇》(我只是昨天看了一点花絮)中的冷娃般的呐喊，我陡然发现陕西话这二年红遍了大江南北(?)。也正是在这二年，一部好的电影，里面要是没有几句经典的陕西话，也基本上就显得没底蕴。这么以来，似乎前些年是郭达丢了陕西人的脸？</p>
+
+
+
+
+<p>2. “好电影总是让人看一遍就更喜欢一遍。”<br />
+    上大学的时候，记得有一部电影，前前后后一共看了九遍，而且应该是在某一个学期内看的，那部电影讲述了一个爱情故事，也可以说是一对幻想症患者的神话，这部电影的名字叫<<a href="http://www.douban.com/subject/1305541/">serendipity</a>>。而这几天来回反复的看了四遍<<a href="http://www.douban.com/subject/1309046/">V for Vendetta</a>>，我的口味完全变了，柴科夫斯基的<1812 overture>让我心驰神往，同时深沉而坚毅的V让我为之倾倒，还有Mr V.的口音，简直帅日塌了。</p>
+
+<p>3.  昨天晚上我奋战到今天凌晨2点，做完了交规考试的那1369道必考题，最后还心血来潮的做了四套模拟题，这么说我一晚上做了大约1.8K的题，这是我学习生涯中绝无仅有的玩命行为。然后早上六点就起床动身去了驾校，坐在考场里居然有些紧张，靠，说来也有年头没考过试了。最后以96分成功过关。</p>
+
+<p>4.  话说我现在看见那一盆子泡的涨大的木耳就开始反胃，我觉得本来挺美好的食物，但是当量变引起质变的时候，你会觉得那个大盆子是多么令人厌恶。难怪我现在还一直会怀念小时候奶奶用铁勺炒的鸡蛋，而居然几乎从来不吃批量炒鸡蛋。还有就是两天吃了三顿半的火锅，导致我今天觉得世界上的食物都已经死了。</p>
+
+<p>呃，好像跑题了。</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/11/23/%E4%B8%80%E5%91%A8%E5%B0%8F%E7%96%AF%E7%8B%82/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/11/23/inconvenience-happens/">Inconvenience Happens</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-11-23 00:00:00 +0800" pubdate  updated >Nov 23<span>rd</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><blockquote>Dear Colleagues,</blockquote></p>
+
+
+
+
+<p>I am so sorry to tell that our deployment of new extra content is really not going well this afternoon, so that the whole Study Center is broken somehow, as it&#8217;s been unluckily facing some unexpected errors while deploying such new features on product environment. Now <a href="http://www.dujinfang.com">seven</a>, gary and me are working on it, please wait for its being resolved..</p>
+
+
+
+
+<p>Sorry for the inconvenience!</p>
+
+
+
+
+<p>Today afternoon, I was upset when the deployment encountering issues. I thought I had been preparing carefully during last few days, but errors still came out. I summarize this lesson as following:</p>
+
+
+
+
+<p>1.  Keep code as well as the deployment revertible.<br />
+    I fall into a situation when I can not go forward and can not go backward. it&#8217;s pretty bad case which makes me feel nervous somehow. unless, I can revert what I did, yeah, it&#8217;s absolutely important.</p>
+
+
+
+
+<p>2.  List out the steps before going through.<br />
+    If we list all the regarding steps out one by one before we going through, I think at least we won&#8217;t face the same bug we face many times while testing.</p>
+
+
+
+
+<p>3. God helps one who owns good habits.<br />
+   To be calm down and confident about solving problems. trying first before asking.</p>
+
+
+
+
+<p>Finally, JP says his famous sentence : &#8220;It happens! and we learned.&#8221;</p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/11/23/inconvenience-happens/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+
+  <article>
+    
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/11/22/time-as-friend/">把时间当作朋友</a></h1>
+    
+    
+      <p class="meta">
+
+
+
+
+<time datetime="2009-11-22 00:00:00 +0800" pubdate  updated >Nov 22<span>nd</span>, 2009</time>
+
+
+</p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>今天Gary把一大包蘑菇放在锅里，等到发现不对劲的时候，锅里的蘑菇已经增长了好几倍，并且把锅盖几乎顶了起来，God.</p>
+
+
+
+
+<p>本来收拾完屋子打算看看书，或者干脆把GR里面的Unread干掉，或者把手头这几个活简单计划一下，但是我还是过于相信自己的控制能力，所以最后，我只是看了一晚上系统，并且和朋友们Skype聊了三个多小时。最后直到嗓子有点哑掉。</p>
+
+
+
+
+<p>&#8220;人们都问人民币会不会升值我也不知道什么时候但是一定会升值。&#8221;<br />
+最近开始对一些自己之前并不感兴趣的领域多了一些关注，惊讶于自己竟然开始考虑汇率，考虑投资，考虑房子。还好重点依然是考虑技术，考虑英语学习，考虑长远发展和自我价值实现。所以，我一如既往的忙碌而平静。</p>
+
+
+
+
+<p><a href="http://www.douban.com/subject/3609132/">《把时间当作朋友》</a>是一本好书，重点推荐一番。<a href="http://blog.wangyaodi.com/2009/11/22/time-as-friend/%e3%80%8a%e6%8a%8a%e6%97%b6%e9%97%b4%e5%bd%93%e4%bd%9c%e6%9c%8b%e5%8f%8b%e3%80%8b%e2%80%94%e2%80%94%e8%bf%90%e7%94%a8%e5%bf%83%e6%99%ba%e8%8e%b7%e5%be%97/" rel="attachment wp-att-112">点击下载电子版</a></p>
+
+</div>
+  <footer>
+    <a rel="full-article" href="/2009/11/22/time-as-friend/">Read on &rarr;</a>
+  </footer>
+
+
+  </article>
+
+<nav role="pagination">
+  <div>
+    
+      <a class="prev" href="/page18/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+      <a class="next" href="/page16/">Newer &rarr;</a>
+    
+  </div>
+</nav>
+
+<script type="text/javascript">
+    var disqus_shortname = 'andyspersonalblog';
+    (function () {
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+</div>
+<aside role=sidebar>
+  
+    <section>
+  <img src="http://farm8.staticflickr.com/7401/8772484013_a1af7dc483_o.jpg"></img>
+  <p><b style="color:red">安迪</b><br />
+     <b style="color:red">西安</b>, 中国 <br />
+     <b style="color:red">自由职业</b> at <a href="http://intridea.com">Intridea</a></p>
+</section>
+<section>
+  <h1>近期博文</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/12/06/31-years-old/">31岁了</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/09/01/xian-rubyists-on-trello/">如何用Trello组织西安Rubyists聚会</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/07/21/be-open-to-express-yourself/">从容表达</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/07/20/remote-working/">远程工作那些事儿</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/07/17/xian-rubyists-party-v2/">西安Rubyists线下活动通知[20130720]</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/07/07/on-the-road/">在路上</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/07/05/bookclub/">读书俱乐部</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/06/25/random-thoughts/">莫愁前路无知己</a>
+      </li>
+    
+  </ul>
+  <p><a style="color:red" href="/blog/archives">更多&#8230;</a></p>
+</section>
+
+<section>
+  <h1>新浪微博</h1>
+  <ul id="weibo">
+    <li>
+      <iframe 
+        width="100%" 
+        height="550" 
+        class="share_self" 
+        frameborder="0" 
+        scrolling="no" 
+        src="http://widget.weibo.com/weiboshow/index.php?width=0&height=550&ptype=1&speed=0&skin=&isTitle=0&noborder=1&isWeibo=1&isFans=&uid=1692318703&verifier=27e84cd9&dpc=1">
+      </iframe>
+    </li>
+  </ul>
+</section>
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer><p>
+  Copyright &copy; 2013 - Andy Wang -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+</body>
+</html>
